@@ -1,0 +1,70 @@
+## 🚀 Setup & Installation Instructions
+
+Follow these steps to run LifeGuard AI locally.
+
+### Prerequisites
+*   Node.js (v18 or higher)
+*   A Twilio Account (for SMS/Voice features)
+*   An OpenAI / Groq API Key (for Chatbot features)
+*   A Mapbox Access Token (for maps)
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Bala863/LifeGuard-AI.git
+cd LifeGuard-AI
+```
+
+### 2. Install Frontend Dependencies
+```bash
+npm install
+```
+
+### 3. Environment Setup (Frontend)
+Create a `.env` file in the root directory and add your MapBox token:
+```env
+VITE_MAPBOX_TOKEN=your_mapbox_token_here
+```
+
+### 4. Install Backend Dependencies
+```bash
+cd backend
+npm install
+```
+
+### 5. Environment Setup (Backend)
+Create a `.env` file inside the `backend/` folder:
+```env
+# AI Integration
+OPENAI_API_KEY=your_openai_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
+
+# Twilio SMS/Voice Setup
+TWILIO_ACCOUNT_SID=your_twilio_sid_here
+TWILIO_AUTH_TOKEN=your_twilio_auth_token_here
+TWILIO_PHONE_NUMBER=your_twilio_purchased_number_here
+
+# Nodemailer Setup
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_email_app_password
+```
+
+### 6. Run the Application
+You need to run both the frontend and the backend servers simultaneously.
+
+**Start the Backend (Terminal 1):**
+```bash
+cd backend
+node server.js
+# Runs on http://localhost:5000
+```
+
+**Start the Frontend (Terminal 2):**
+```bash
+npm run dev
+```
+
+## 🤝 Contribution
+Contributions, issues, and feature requests are always welcome! Feel free to check the issues page.
+
+## 📝 License
+This project is proprietary. All rights reserved.

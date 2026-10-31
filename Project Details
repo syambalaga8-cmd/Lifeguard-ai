@@ -1,0 +1,36 @@
+Project Title
+LifeGuard AI: Unified Autonomous Health & Emergency Guardian
+
+Project Overview
+LifeGuard AI is an advanced, privacy-first web application designed to act as a 24/7 digital health companion. It seamlessly integrates physical health monitoring, psychological well-being tools, and an SOS emergency response network into a single, intuitive platform. Built with a premium "glassmorphism" aesthetic, it prioritizes a calming user experience while handling critical safety operations.
+
+Core Modules & Features
+1. Dynamic Physical Health Dashboard
+
+Body Battery Metric: Calculates a real-time energy capacity score based on sleep logging, step counts, and stress levels.
+Diagnostic Tools: Interactive symptom checking, diet recommendations, and medication tracking.
+Organ System Health Check: Targeted inputs to assess the health of the Heart, Lungs, and Brain.
+2. Mental Health & AI Companion
+
+Intelligent Chatbot: A globally accessible, floating AI assistant trained to analyze emotional weight and offer empathetic, actionable advice.
+Risk Detection: Natural Language Processing (NLP) designed to detect severe emotional distress or suicide risks and suggest immediate intervention.
+Relax & Reset Hub: Built-in micro-games (Bubble Pop, Breathing Circles, Focus Tap) engineered for rapid stress relief and grounding.
+3. Emergency SOS Hub (The Safety Net)
+
+Rapid Activation: One-click SOS trigger that initiates intense screen flashing, a loud algorithmic siren, and mobile device vibration (SOS Morse code pattern).
+Automated Dispatch: Immediately captures live GPS coordinates and dispatches them via SMS and Automated Voice Calls (via Twilio) to pre-defined "Safe Circle" contacts.
+Hospital Routing: Integrates with map services to instantly locate and route the user to the nearest medical facilities.
+Technology Stack
+Frontend Framework: React.js (built with Vite for high performance)
+Styling & UI: Tailwind CSS (for utility-class styling) and Framer Motion (for fluid, 60fps glassmorphism animations).
+Backend Server: Node.js & Express.js
+Database/Storage: LocalStorage (client-side data persistence)
+External APIs & Integrations:
+OpenAI / Groq API: Powers the conversational AI logic.
+Twilio API: Handles emergency SMS and Voice call routing.
+Nodemailer: Manages secondary emergency email dispatches.
+Geolocation & Mapbox: Fetches live coordinates and reverse-geocodes addresses.
+Web Audio & Vibration APIs: Triggers native hardware alarms.
+Target Audience
+Individuals seeking a centralized platform to manage chronic conditions, daily well-being, or mental health, as well as users who require a reliable digital safety net (e.g., the elderly, people working in high-risk environments, or individuals navigating personal safety concerns).
+
